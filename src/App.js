@@ -1,27 +1,29 @@
 import Carouselbanner from './Components/Carouselbanner';
 import './App.css';
-import { TextField } from '@mui/material';
+// import { TextField } from '@mui/material';
 import Navbar from './Components/Navbar';
-import Playerlist from './playerlist.json';
-import {useState} from "react";
+import Events from './events.json';
+import Event from './Components/event';
+// import {useState} from "react";
 // import Home from './Components/Home';
 function App() {
-  const filteredUpcomingData = Playerlist.filter(d => new Date(d.event_date_time) > new Date());
-  const filteredRecentData = Playerlist.filter(d => new Date(d.event_date_time) < new Date());
-  console.log("filterUpcomingData:",filteredUpcomingData);
+  // const filteredUpcomingData = Events.filter(d => new Date(d.event_date_time) > new Date());
+  const filteredRecentData = Events.filter(d => new Date(d.event_date_time) < new Date());
+  // console.log("filterUpcomingData:",filteredUpcomingData);
   console.log("filterRecentData:",filteredRecentData);
-  const[query,setQuery]= useState(" ");
+  // const[query,setQuery]= useState(" ");
 
   return (
-    <>
+    <div>
     <Navbar title="Sport Event" about="About Us" />
     <div className='banner'>
-   <Carouselbanner />
+   <Carouselbanner className='Carouselbanner' />
 
    </div>
-   <div className="search">
+
+   {/* <div className="search">
         <TextField id="outlined-basic" variant="outlined" html="Search" onChange={event => setQuery(event.target.value)}/>
-      </div>
+      </div> */}
     <div className="container my-5">
       {/* <div className="App-header">   */}
     {/* <Home /> */}
@@ -30,14 +32,14 @@ function App() {
     Upcoming Events
     </h2>   <br /> 
     
-    <div className="inner">
+    {/* <div className="inner">
       
       {
         filteredUpcomingData && filteredUpcomingData.map(filteredUpcomingData => {
           return(
             <div className="box" key={filteredUpcomingData.id}>
-              {/* if ({!playerlist.matchStarted==true})  */}
-                <img src={filteredUpcomingData.image} />
+              {/* if ({!Events.matchStarted==true})  */}
+                {/* <img src={filteredUpcomingData.image} />
               <br />
               <strong>
               {
@@ -59,7 +61,8 @@ function App() {
           )
         })
       }
-    </div>
+    </div> */} 
+    <Event />
     </div>
     
     </div>
@@ -77,7 +80,7 @@ function App() {
         filteredRecentData && filteredRecentData.map(filteredRecentData => {
           return(
             <div className="box" key={filteredRecentData.id}>
-              {/* if ({!playerlist.matchStarted==true})  */}
+              {/* if ({!Events.matchStarted==true})  */}
                 <img src={filteredRecentData.image} />
               <br />
               <strong>
@@ -104,7 +107,7 @@ function App() {
     </div>
     
     </div>
-    </>
+    </div>
   ); }
 
 
