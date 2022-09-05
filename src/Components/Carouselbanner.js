@@ -23,7 +23,7 @@ function Carouselbanner(props)
     // filteredBanner && filteredBanner.map(item => {
     
     return (
-        <Carousel className='Carouselbanner'>
+        <Carousel>
             {
                 filteredBanner.map( (item, i) => <Item key={i} item={item} /> )
             }
@@ -36,13 +36,15 @@ function Carouselbanner(props)
 function Item(props)
 {
     return (
-        <Paper style={{ height:200 },{ backgroundImage: `url(${props.item.image})` }}>
+        <div className='Carousel'>
+        <Paper style={{ height:250,width:'100%', backgroundImage: `url(${props.item.image})`, backgroundRepeat: "no-repeat"}}>
 
-            {props.item.title}
+           <h1> {props.item.title} </h1>
             <p>{props.item.description}</p>
             <p>{props.item.event_date_time}</p>
-            {/* <p>{props.item.image}</p> */}
+    
         </Paper>
+        </div>
     );
 };
 export default Carouselbanner;
