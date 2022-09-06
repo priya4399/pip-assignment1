@@ -1,0 +1,313 @@
+[
+    {
+        "id":1,
+        "title" :"ICC Women's World Cup" ,
+        "description": "West Indies Women, elected to bat first,AUS Women won by 7 wickets (with 118 balls remaining)",
+        "event_date_time" : "2022-03-15 23:00:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+
+
+    },
+    {
+        "id":2,
+        "title" :"Ranji Trophy" ,
+        "description": "Nagaland, elected to bowl first,Day 4 - Jharkhand lead by 723 runs",
+        "event_date_time" : "2022-09-1 23:00:00",
+        "caption":"Image 2",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+    {
+        "id":3,
+        "title" :"Test Match" ,
+        "description": "Australia Vs South Africa",
+        "event_date_time" : "2022-09-17 22:20:00",
+        "caption":"Image 2",
+        "image": "images/cricket2.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+   
+    {
+        "id":4,
+        "title" :"English Premier League",
+        "description": "Manchester United vs Tottenham Hotspu",
+        "event_date_time" : "2022-08-08 23:00:00",
+        "caption":"Image 3",
+        "image": "images/football1.jfif",
+        "type": "Football",
+        "status":"completed"
+    },
+    {
+        "id":5,
+        "title" :"WomensT20I" ,
+        "description": "Australia Women Vs Australia Women",
+        "event_date_time" : "2022-07-23 22:20:00",
+        "caption":"Image 4",
+        "image": "images/women20.jfif",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":6,
+        "title" :"T20I" ,
+        "description": "West Indies Vs Pakistan",
+        "event_date_time" : "2023-07-23 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"upcoming"
+    },
+    {
+        "id":7,
+        "title" :"First-class" ,
+        "description": "Northern Districts Vs Central Districts",
+        "event_date_time" : "2021-07-23 22:20:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":8,
+        "title" :"Twenty20" ,
+        "description": "Chennai Super Kings Vs Mumbai Indians",
+        "event_date_time" : "2020-02-03 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":9,
+        "title" :"IPL" ,
+        "description": "Kolkata Knight Riders Vs Royal Challengers Bangalore ,Royal Challengers Bangalore wins toss but Kolkata Knight Riders is the winner",
+        "event_date_time" : "2021-02-17 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":10,
+        "title" :"IPL" ,
+        "description": "Rajasthan Royals Vs Delhi Daredevils, Winner is Delhi Daredevils",
+        "event_date_time" : "2021-07-12 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif",
+        "type": "cricket",
+        "status":"completed"
+    },
+
+
+    {
+        "id":11,
+        "title" :"ICC Women's World Cup" ,
+        "description": "West Indies Women, elected to bat first,AUS Women won by 7 wickets (with 118 balls remaining)",
+        "event_date_time" : "2022-03-15 23:00:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+
+
+    },
+    {
+        "id":12,
+        "title" :"Ranji Trophy" ,
+        "description": "Nagaland, elected to bowl first,Day 4 - Jharkhand lead by 723 runs",
+        "event_date_time" : "2022-09-1 23:00:00",
+        "caption":"Image 2",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+    {
+        "id":13,
+        "title" :"Test Match" ,
+        "description": "Australia Vs South Africa",
+        "event_date_time" : "2022-09-17 22:20:00",
+        "caption":"Image 2",
+        "image": "images/cricket2.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+   
+    {
+        "id":14,
+        "title" :"English Premier League",
+        "description": "Manchester United vs Tottenham Hotspu",
+        "event_date_time" : "2022-08-08 23:00:00",
+        "caption":"Image 3",
+        "image": "images/football1.jfif",
+        "type": "Football",
+        "status":"completed"
+    },
+    {
+        "id":15,
+        "title" :"WomensT20I" ,
+        "description": "Australia Women Vs Australia Women",
+        "event_date_time" : "2022-07-23 22:20:00",
+        "caption":"Image 4",
+        "image": "images/women20.jfif",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":16,
+        "title" :"T20I" ,
+        "description": "West Indies Vs Pakistan",
+        "event_date_time" : "2023-07-23 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"upcoming"
+    },
+    {
+        "id":17,
+        "title" :"First-class" ,
+        "description": "Northern Districts Vs Central Districts",
+        "event_date_time" : "2021-07-23 22:20:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":18,
+        "title" :"Twenty20" ,
+        "description": "Chennai Super Kings Vs Mumbai Indians",
+        "event_date_time" : "2020-02-03 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":19,
+        "title" :"IPL" ,
+        "description": "Kolkata Knight Riders Vs Royal Challengers Bangalore ,Royal Challengers Bangalore wins toss but Kolkata Knight Riders is the winner",
+        "event_date_time" : "2021-02-17 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":20,
+        "title" :"IPL" ,
+        "description": "Rajasthan Royals Vs Delhi Daredevils, Winner is Delhi Daredevils",
+        "event_date_time" : "2021-07-12 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":21,
+        "title" :"ICC Women's World Cup" ,
+        "description": "West Indies Women, elected to bat first,AUS Women won by 7 wickets (with 118 balls remaining)",
+        "event_date_time" : "2022-03-15 23:00:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+
+
+    },
+    {
+        "id":22,
+        "title" :"Ranji Trophy" ,
+        "description": "Nagaland, elected to bowl first,Day 4 - Jharkhand lead by 723 runs",
+        "event_date_time" : "2022-09-1 23:00:00",
+        "caption":"Image 2",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+    {
+        "id":23,
+        "title" :"Test Match" ,
+        "description": "Australia Vs South Africa",
+        "event_date_time" : "2022-09-17 22:20:00",
+        "caption":"Image 2",
+        "image": "images/cricket2.jfif ",
+        "type": "cricket",
+        "status":"In-Progress"
+    },
+   
+    {
+        "id":24,
+        "title" :"English Premier League",
+        "description": "Manchester United vs Tottenham Hotspu",
+        "event_date_time" : "2022-08-08 23:00:00",
+        "caption":"Image 3",
+        "image": "images/football1.jfif",
+        "type": "Football",
+        "status":"completed"
+    },
+    {
+        "id":25,
+        "title" :"WomensT20I" ,
+        "description": "Australia Women Vs Australia Women",
+        "event_date_time" : "2022-07-23 22:20:00",
+        "caption":"Image 4",
+        "image": "images/women20.jfif",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":26,
+        "title" :"T20I" ,
+        "description": "West Indies Vs Pakistan",
+        "event_date_time" : "2023-07-23 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"upcoming"
+    },
+    {
+        "id":27,
+        "title" :"First-class" ,
+        "description": "Northern Districts Vs Central Districts",
+        "event_date_time" : "2021-07-23 22:20:00",
+        "caption":"Image 1",
+        "image": "images/cricket1.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":28,
+        "title" :"Twenty20" ,
+        "description": "Chennai Super Kings Vs Mumbai Indians",
+        "event_date_time" : "2020-02-03 22:20:00",
+        "caption":"Image 5",
+        "image": "images/20-20.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":29,
+        "title" :"IPL" ,
+        "description": "Kolkata Knight Riders Vs Royal Challengers Bangalore ,Royal Challengers Bangalore wins toss but Kolkata Knight Riders is the winner",
+        "event_date_time" : "2021-02-17 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif ",
+        "type": "cricket",
+        "status":"completed"
+    },
+    {
+        "id":30,
+        "title" :"IPL" ,
+        "description": "Rajasthan Royals Vs Delhi Daredevils, Winner is Delhi Daredevils",
+        "event_date_time" : "2021-07-12 22:20:00",
+        "caption":"Image 6",
+        "image": "images/ipl.jfif",
+        "type": "cricket",
+        "status":"completed"
+    }
+]
